@@ -1,0 +1,112 @@
+    * {
+        margin: 0;
+        padding: 0;
+        /* font-family: [Red Hat Display](https: //fonts.google.com/specimen/Red+Hat+Display); */
+    }
+    
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+    
+    body {
+        background-color: rgb(235, 235, 235);
+        /* background-image: url(images/pattern-background-desktop.svg); */
+    }
+    
+    .main {
+        background-color: rgb(255, 255, 255);
+        width: 375px;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 90px;
+        box-shadow: 2px 2px 10px hsl(223, 47%, 23%);
+    }
+    
+    .header>img {
+        width: 375px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .container {
+        /* background-color: red; */
+        padding: 30px 40px 30px;
+    }
+    
+    .des {
+        text-align: center;
+    }
+    
+    .des>h1 {
+        color: hsl(223, 47%, 23%)
+    }
+    
+    .des>p {
+        padding-top: 20px;
+        color: hsl(224, 23%, 55%);
+    }
+    
+    .plan {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: hsl(225, 100%, 98%);
+    }
+    
+    .left {
+        display: flex;
+    }
+    
+    .left>img {
+        padding-right: 15px;
+    }
+    /* .right>a {
+        font-weight: 300;
+    }
+     */
+    
+    .amount>h3 {
+        color: hsl(223, 47%, 23%)
+    }
+    
+    .amount>p {
+        color: hsl(224, 23%, 55%);
+    }
+    
+    button {
+        background-color: hsl(245, 75%, 52%);
+        color: white;
+        border: none;
+        padding: 10px 80px;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px hsl(223, 47%, 23%);
+    }
+    
+    button:hover {
+        cursor: pointer;
+    }
+    
+    footer>p {
+        padding-top: 30px;
+        color: hsl(224, 23%, 55%);
+        font-weight: bold;
+    }
+    
+    footer>p:hover {
+        cursor: pointer;
+    }
+    
+    .foot-p {
+        padding-top: 20px;
+        font-size: smaller;
+    }
